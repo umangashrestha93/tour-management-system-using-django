@@ -24,89 +24,62 @@
     <a href="#" class="logo"> <i class="fas fa-hiking"></i> Tour Management System. </a>
 
     <nav class="navbar">
-        <div id="nav-close" class="fas fa-times"></div>
         <a href="#home">home</a>
         <a href="#about">about</a>
         <a href="#shop">shop</a>
         <a href="#packages">packages</a>
         <a href="#reviews">reviews</a>
-        <a href="#blogs">blogs</a>
-
-
-    </nav>
-
-    <div class="icons">
-        <div id="menu-btn" class="fas fa-bars"></div>
         <a href="#" class="fas fa-shopping-cart"></a>
-        <div id="search-btn" class="fas fa-search"></div>
-        <div id="theme-btn" class="fas fa-moon"></div>
-    </div>
+    </nav>
 
 </header>
 
 <!-- header section ends -->
 
-<!-- search form  -->
-
-<div class="search-form">
-
-    <div id="close-search" class="fas fa-times"></div>
-
-    <form action="">
-        <input type="search" name="" placeholder="search here..." id="search-box">
-        <label for="search-box" class="fas fa-search"></label>
-    </form>
-</div>
-
 <!-- home section starts  -->
 
-<section class="home" id="home">
+<div style="width: 100%; height: 100vh; display: flex;">
 
     <div class="swiper home-slider">
 
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper" style="display: flex; align-items: center;">
 
-            <div class="swiper-slide">
-                <div class="box" style="background: url(images/mteverest.jpg) no-repeat;">
-                    <div class="content">
-                        <span>never stop</span>
-                        <h3>exploring</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
-                        <a href="#" class="btn">get started</a>
-                    </div>
+            <div class="swiper-slide" style="background-image: url('images/mteverest.jpg');">
+                <div style="text-align: center; width: 100%; height: 100vh; align-content: center;">
+                    <span style="font-size: large;">never stop</span>
+                    <h1>exploring</h3>
+                    <p style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                    <a href="#" class="btn">get started</a>
                 </div>
             </div>
 
-            <div class="swiper-slide">
-                <div class="box second" style="background: url(images/ktm.jpg) no-repeat;">
-                    <div class="content">
-                        <span>make tour</span>
-                        <h3>amazing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
-                        <a href="#" class="btn">get started</a>
-                    </div>
+            <div class="swiper-slide" style="background-image: url('images/ktm.jpg');">
+                <div style="text-align: center; width: 100%; height: 100vh; align-content: center;">
+                    <span style="font-size: large;">make tour</span>
+                    <h1>amazing</h3>
+                    <p style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                    <a href="#" class="btn">get started</a>
                 </div>
             </div>
 
-            <div class="swiper-slide">
-                <div class="box" style="background: url(images/pkr2.jpg) no-repeat;">
-                    <div class="content">
-                        <span>explore the</span>
-                        <h3>new world</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
-                        <a href="#" class="btn">get started</a>
-                    </div>
+            <div class="swiper-slide" style="background-image: url('images/pkr2.jpg');">
+                <div style="text-align: center; width: 100%; height: 100vh; align-content: center;">
+                    <span style="font-size: large;">explore the</span>
+                    <h1>new world</h3>
+                    <p style="font-size: large;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                    <a href="#" class="btn">get started</a>
                 </div>
             </div>
 
         </div>
 
+        <!-- Navigation buttons -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
 
     </div>
 
-</section>
+</div>
 
 <!-- home section ends -->
 
@@ -154,6 +127,7 @@
 
 <!-- about section starts  -->
 
+<h1 class="heading">About</h1>
 <section class="about" id="about">
 
     <div class="image">
@@ -174,21 +148,13 @@
 <!-- shop section starts  -->
 
 <section class="shop" id="shop">
-
     <h1 class="heading">featured products</h1>
 
     <div class="swiper product-slider">
-
         <div class="swiper-wrapper">
-
             <div class="swiper-slide slide">
                 <div class="image">
-                    <img src="images/bag.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
+                    <img src="images/bag.jpg" alt="Trekking bag">
                 </div>
                 <div class="content">
                     <h3>Trekking bag</h3>
@@ -201,19 +167,15 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
+                <a href="#" class="btn">get started</a>
             </div>
 
             <div class="swiper-slide slide">
                 <div class="image">
-                    <img src="images/glass.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
+                    <img src="images/glass.jpg" alt="Trekking glasses">
                 </div>
                 <div class="content">
-                    <h3>trekking Glass</h3>
+                    <h3>Trekking Glass</h3>
                     <div class="price">NRP 4,000</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
@@ -223,16 +185,12 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
+                <a href="#" class="btn">get started</a>
             </div>
 
             <div class="swiper-slide slide">
                 <div class="image">
-                    <img src="images/knife.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
+                    <img src="images/knife.jpg" alt="Foldable knife">
                 </div>
                 <div class="content">
                     <h3>Foldable Knife</h3>
@@ -245,20 +203,16 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
+                <a href="#" class="btn">get started</a>
             </div>
 
             <div class="swiper-slide slide">
                 <div class="image">
-                    <img src="images/shoes.png" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
+                    <img src="images/shoes.png" alt="Trekking shoes">
                 </div>
                 <div class="content">
                     <h3>Trekking Shoes</h3>
-                    <div class="price">NRP 15,000 </div>
+                    <div class="price">NRP 15,000</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -267,20 +221,16 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
+                <a href="#" class="btn">get started</a>
             </div>
 
             <div class="swiper-slide slide">
                 <div class="image">
-                    <img src="images/sleepingbag.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
+                    <img src="images/sleepingbag.jpg" alt="Sleeping bag">
                 </div>
                 <div class="content">
                     <h3>Sleeping Bag</h3>
-                    <div class="price">NRP 7,000 </div>
+                    <div class="price">NRP 7,000</div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -289,16 +239,12 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
+                <a href="#" class="btn">get started</a>
             </div>
 
             <div class="swiper-slide slide">
                 <div class="image">
-                    <img src="images/Rope.jpg" alt="">
-                    <div class="icons">
-                        <a href="#" class="fas fa-shopping-cart"></a>
-                        <a href="#" class="fas fa-eye"></a>
-                        <a href="#" class="fas fa-share"></a>
-                    </div>
+                    <img src="images/Rope.jpg" alt="Rope">
                 </div>
                 <div class="content">
                     <h3>Rope</h3>
@@ -311,15 +257,13 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
+                <a href="#" class="btn">get started</a>
             </div>
-
         </div>
 
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-
     </div>
-
 </section>
 
 <!-- shop section ends -->
@@ -403,6 +347,54 @@
                 <a href="#" class="btn">explore now</a>
             </div>
         </div>
+        <div class="box">
+            <div class="image">
+                 <img src="https://internationalyouthclub.org/wp-content/uploads/2025/08/Meghalaya-Tourism-Tour-Packages-scaled.webp" alt="">
+            </div>
+            <div class="content">
+                <h3>Meghalaya</h3>
+                <p>Meghalaya, known as the "Abode of Clouds", is famous for its lush greenery,
+        living root bridges, waterfalls, and crystal-clear rivers. A perfect destination
+        for nature lovers and adventure seekers.</p>
+                <div class="price">$250 - $450</div>
+                <a href="#" class="btn">explore now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="https://www.andamanislands.com/uploads/andamanislands/blog/main/67371b4c75810169_scuba-diving.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>ANDAMAN & NICOBAR ISLAND</h3>
+                <p>The Andaman and Nicobar Islands are a group of beautiful islands in the Bay of Bengal,
+        known for their white sandy beaches, crystal-clear waters, coral reefs, and tropical forests.
+        Popular attractions include Radhanagar Beach, Cellular Jail, and Havelock Island.</p>
+                <div class="price">$250 - $450</div>
+                <a href="#" class="btn">explore now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="https://www.thepalaceonwheels.org/storage/jaislamer_fort_night_view_1914%20(1).jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Jaisalmer</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                <div class="price">$250 - $450</div>
+                <a href="#" class="btn">explore now</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="https://img.indiahighlight.com/fit-in/1090x600/ih/uploads/1733894516.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Manali, Solang Valley</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, eos.</p>
+                <div class="price">$250 - $450</div>
+                <a href="#" class="btn">explore now</a>
+            </div>
+        </div>
 
     </div>
 
@@ -417,77 +409,152 @@
     <h1 class="heading">client's reviews</h1>
 
     <div class="swiper review-slider">
-
         <div class="swiper-wrapper">
-
             <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/rashman.jpg" alt="">
-                    <div class="info">
-                        <h3>Rashman Shrestha</h3>
-                        <span>Project Manager</span>
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="user">
+                        <img src="images/rashman.jpg" alt="">
+                        <div class="info">
+                            <h3>Rashman Shrestha</h3>
+                            <span>Project Manager</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/Rajkumar.jpg" alt="">
-                    <div class="info">
-                        <h3>Rajkumar Sapkota</h3>
-                        <span>Project Manager</span>
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="user">
+                        <img src="images/Rajkumar.jpg" alt="">
+                        <div class="info">
+                            <h3>Rajkumar Sapkota</h3>
+                            <span>Project Manager</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/atit.jpg" alt="">
-                    <div class="info">
-                        <h3>Atit Kaji Basnet</h3>
-                        <span>Business Analyst</span>
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="user">
+                        <img src="images/atit.jpg" alt="">
+                        <div class="info">
+                            <h3>Atit Kaji Basnet</h3>
+                            <span>Business Analyst</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/siddhant.jpg" alt="">
-                    <div class="info">
-                        <h3>Siddhant Chaudhary</h3>
-                        <span>Developer</span>
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="user">
+                        <img src="images/siddhant.jpg" alt="">
+                        <div class="info">
+                            <h3>Siddhant Chaudhary</h3>
+                            <span>Developer</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/sameer.jpg" alt="">
-                    <div class="info">
-                        <h3>Sameer Sunar</h3>
-                        <span>Developer</span>
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="user">
+                        <img src="images/sameer.jpg" alt="">
+                        <div class="info">
+                            <h3>Sameer Sunar</h3>
+                            <span>Developer</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide slide">
-                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
-                <div class="user">
-                    <img src="images/sanjeet.jpg" alt="">
-                    <div class="info">
-                        <h3>Sanjeet Ghotane Gurung</h3>
-                        <span>Business Analyst</span>
+                <div class="review-card">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem laborum pariatur alias, culpa illum quaerat, aliquid laboriosam voluptatem nisi repellat obcaecati, adipisci esse ab delectus dolorum ut recusandae ipsam?</p>
+                    <div class="user">
+                        <img src="images/sanjeet.jpg" alt="">
+                        <div class="info">
+                            <h3>Sanjeet Ghotane Gurung</h3>
+                            <span>Business Analyst</span>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
             </div>
-
         </div>
-
+        
+        <!-- Add navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+        <!-- Add pagination -->
+        <div class="swiper-pagination"></div>
     </div>
 
 </section>
@@ -549,90 +616,6 @@
 </section>
 
 <!-- services section ends -->
-
-<!-- blogs section starts  -->
-
-<section class="blogs" id="blogs">
-
-    <h1 class="heading"> our daily posts </h1>
-
-    <div class="swiper blogs-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-                <img src="images/img-1.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-2.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-3.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-4.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-5.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-            <div class="swiper-slide slide">
-                <img src="images/img-6.jpg" alt="">
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-                <h3>blog title goes here.</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, deserunt.</p>
-                <a href="#" class="btn">read more</a>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- blogs section ends -->
 
 <!-- newsletter section  -->
 
